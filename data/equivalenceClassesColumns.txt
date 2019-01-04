@@ -1,0 +1,23 @@
+Column 1 gives the rank of this equivalence class. 1 is the best, and 7462 is the worst.
+Column 2 gives the total number of unique five-card poker hands that collapse into this equivalence class. For example, there are 4 Royal Flush hands (one for each suit), but they all collapse into one equivalence class. As another example, there are 24 different hands possible of a Full House with Queens over Fours (4 ways to choose three Queens, times 6 ways to choose two Fours), but they also all collapse into one equivalence class.
+
+Column 3 gives the total number of unique six-card poker hands that collapse into this equivalence class (when choosing the best possible five-card hand from the six available).
+
+Column 4 gives the total number of unique seven-card poker hands that collapse into this equivalence class (when choosing the best possible five-card hand from the seven available).
+
+Column 5 gives the total number of unique eight-card poker hands that collapse into this equivalence class (when choosing the best possible five-card hand from the eight available).
+
+Column 6 gives a sample poker hand representing this equivalence class. I didn't bother showing suit information, because usually it doesn't matter. If it does matter (as in Flush hands), then it is implied that the suits are identical for that hand.
+
+Column 7 gives an abbreviation for one of the nine possible poker hand rankings this equivalence class represents. The abbreviations used are:
+
+SF	 	Straight Flush
+4K	 	Four of a Kind
+FH	 	Full House
+F	 	Flush
+S	 	Straight
+3K	 	Three of a Kind
+2P	 	Two Pair
+1P	 	One Pair
+HC	 	High Card
+Column 8 gives a short description of this equivalence class. Kicker information is not given, but can be determined by inspecting the sixth column. For example, rows 11 and 12 both are hands of Four Aces, but the first one has a King kicker, and the second has a Queen kicker.
